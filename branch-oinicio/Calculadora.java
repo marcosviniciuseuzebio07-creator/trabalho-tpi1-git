@@ -13,7 +13,7 @@ public class Calculadora {
                 throw new IllegalArgumentException("Operação inválida: " + operacao);
         }
     }
-
+     // Alteração antes do merge
     // Método principal para testar
     public static void main(String[] args) {
         Calculadora calc = new Calculadora();
