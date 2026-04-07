@@ -1,0 +1,50 @@
+git config --global user name
+ "Marcos vinicius Euzebio Do Nascimento"
+git config --global user.email "marcosvinicius.euzebio07@gmail.com"
+
+
+git clone https://github.com/marcosviniciuseuzebio07-creator/trabalho-tpi1-git.git
+cd trabalho-tpi1-git
+
+git branch amissao
+git branch oresgate
+git branch oamanhanuncamorre
+
+git push origin amissao
+git push origin oresgate
+git push origin oamanhanuncamorre
+
+git checkout main
+git add .
+git commit -m "Adicionando código inicial"
+git push origin main
+
+git checkout amissao
+git add .
+git commit -m "Adicionando código na branch amissao"
+git push origin amissao
+
+git checkout oresgate
+git add .
+git commit -m "Adicionando código na branch oresgate"
+git push origin oresgate
+
+git checkout oamanhanuncamorre
+git add .
+git commit -m "Adicionando código na branch oamanhanuncamorre"
+git push origin oamanhanuncamorre
+
+git checkout main
+git add .
+git commit -m "Adicionando comentário antes do main"
+git push origin main
+
+git checkout main
+git merge amissao
+git push origin main
+
+git merge oresgate
+git push origin main
+
+git merge oamanhanuncamorre
+git push origin main
