@@ -1,7 +1,3 @@
-git config --global user name
- "Marcos vinicius Euzebio Do Nascimento"
-git config --global user.email "marcosvinicius.euzebio07@gmail.com"
-
 
 git clone https://github.com/marcosviniciuseuzebio07-creator/trabalho-tpi1-git.git
 cd trabalho-tpi1-git
